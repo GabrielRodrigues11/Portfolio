@@ -1,0 +1,99 @@
+/*SOBRE MIM*/
+
+.sobre-mim {
+
+    height: 700px;
+    margin-top: 120px;
+    width: 100%;
+    padding: 50px;
+    background-color: #1f1f20ab;
+}
+
+.form-about {
+    color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    border-radius: 20px;
+
+}
+
+.about-image img {
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    height: 100%;
+}
+
+.about-text {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.about-text h1 {
+    text-align: left;
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: #138b1b;
+    font-weight: bolder;
+
+}
+
+.about-text h2 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.about-text p {
+    text-align: left;
+    font-size: 20px;
+}
+
+.about-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+
+.icon {
+    margin-top: 40px;
+}
+
+.icon a {
+    background-color: #0e0a0a;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    border: 1px solid #061107;
+
+}
+
+.icon img {
+    width: 80px;
+}
+
+.icon a:hover {
+    border: 1px solid #138b1b;
+    box-shadow: 0 0 15px#138b1b;
+}
+

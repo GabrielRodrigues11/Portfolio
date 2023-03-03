@@ -1,0 +1,105 @@
+/*EXPERIÊNCIA*/
+
+.experiencia {
+    background-color: #17171a;
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.xp-container {
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xp-container h1 {
+    margin-top: 10px;
+    font-weight: bolder;
+    color: #138b1b;
+    font-size: 45px;
+}
+
+.xp-buttons ul {
+    display: flex;
+}
+
+.xp-buttons li {
+    margin-top: 20px;
+    color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 15px;
+    background-color: #09090a;
+    width: 160px;
+    height: 50px;
+    transition: 0.4s;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.xp-buttons li:hover {
+    border: 2px solid #138b1b;
+    cursor: pointer;
+    box-shadow: 0 0 15px#138b1b;
+}
+
+
+#btn-xp {
+    background-color: #138b1b;
+    box-shadow: 0 0 15px#138b1b;
+}
+
+.xp-oportunidade {
+    color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.xp-oportunidade p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.xp-estudos {
+    color: #d3d3d3;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.xp-estudos p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.xp-experiencia {
+    color: #d3d3d3;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.xp-experiencia p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}

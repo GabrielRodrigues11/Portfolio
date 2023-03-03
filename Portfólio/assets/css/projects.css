@@ -1,0 +1,134 @@
+/*PROJETOS*/
+.projetos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-projetos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.tittle-projetos h1 {
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: #138b1b;
+    font-weight: bolder;
+}
+
+.form-projects {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.projects {
+    background-color: #17171a;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    color: #d3d3d3;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.projects h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.projects p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.projects a {
+    display: flex;
+    text-decoration: none;
+    font-size: 25px;
+    background: none;
+    border: none;
+}
+
+.project1 {
+    border: 2px solid #eaff30da;
+}
+
+.project1 a {
+    color: #eaff30da;
+    position: relative;
+}
+
+.project1 a:after {
+    content: "";
+    position: absolute;
+    background-color: #eaff30da;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease-in-out;
+}
+
+.project1 a:hover:after {
+    width: 60%;
+}
+
+
+.project2 {
+    border: 2px solid #c41f1fda;
+}
+
+.project2 a {
+    color: #c41f1fda;
+    position: relative;
+}
+
+.project2 a:after {
+    content: "";
+    position: absolute;
+    background-color: #c41f1fda;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease-in-out;
+}
+
+.project2 a:hover:after {
+    width: 60%;
+}
+
+.project3 {
+    border: 2px solid #341bc4da;
+}
+
+.project3 a {
+    color: #341bc4da;
+    position:relative;
+
+}
+
+.project3 a:after {
+    content: "";
+    position: absolute;
+    background-color: #341bc4da;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease-in-out;
+}
+
+.project3 a:hover:after {
+    width: 60%;
+}
