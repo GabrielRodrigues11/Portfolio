@@ -177,7 +177,7 @@ main {
 }
 
 .text-apresentacao p {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .text-apresentacao span {
@@ -339,13 +339,12 @@ footer a:hover {
     }
 }
 
-
 @media screen and (max-width: 767px) {
 
     .text-apresentacao p {
-        font-size: 25px;
+        font-size: 35px;
     }
-    
+
     .text-apresentacao span {
         font-size: 40px;
         color: #138b1b;
@@ -355,10 +354,10 @@ footer a:hover {
         width: 250px;
 
     }
-    
     .text-apresentacao button:hover {
         width: 280px;
 
     }
-    
+
 }
+
