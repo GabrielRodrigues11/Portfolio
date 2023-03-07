@@ -343,62 +343,7 @@ footer a:hover {
 
 @media screen and (max-width: 767px) {
 
-    .sobre-mim {
-        width: 100%;
-        height: 700px;
-        margin-top: 0px;
-    }
-
-    .about-image {
-        display: none;
-    }
-
-    .about-group {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .about-text h1 {
-        text-align: center;
-        font-size: 35px;
-    }
-
-    .about-text h2 {
-        text-align: center;
-    }
-
-    .about-text p {
-        justify-content: center;
-        text-align: justify;
-        font-size: 20px;
-        width: 400px;
-    }
-
-    .experiencia {
-        background-color: #17171a;
-        height: 400px;
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .xp-container h1 {
-        font-size: 35px;
-    }
-
-    .xp-oportunidade p {
-        font-size: 18px;
-    }
-
-    .xp-estudos p {
-        font-size: 18px;
-    }
-
-    .xp-experiencia p {
-        font-size: 18px;
-    }
+    
 
     .projetos h1 {
         font-size: 35px;

@@ -11,7 +11,7 @@
 .xp-container {
     width: 1000px;
     height: 400px;
-    margin: auto;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,6 +26,8 @@
 
 .xp-buttons ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .xp-buttons li {
@@ -66,7 +68,7 @@
     justify-content: center;
 }
 
-.xp-oportunidade p {
+.xp-texts{
     margin-top: 20px;
     text-align: center;
     font-size: 20px;
@@ -82,13 +84,6 @@
     justify-content: center;
 }
 
-.xp-estudos p {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 20px;
-}
-
-
 .xp-experiencia {
     color: #d3d3d3;
     display: none;
@@ -98,8 +93,29 @@
     justify-content: center;
 }
 
-.xp-experiencia p {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 20px;
+
+
+@media screen and (max-width: 767px) {
+
+    .experiencia {
+        height: 650px;
+    }
+
+    .xp-container h1 {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .xp-oportunidade p {
+        font-size: 18px;
+    }
+
+    .xp-estudos p {
+        font-size: 18px;
+    }
+
+    .xp-experiencia p {
+        font-size: 18px;
+    }
+
 }

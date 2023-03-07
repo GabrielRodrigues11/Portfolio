@@ -23,7 +23,7 @@
 .form-projects {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 30px;
     flex-wrap: wrap;
 }
