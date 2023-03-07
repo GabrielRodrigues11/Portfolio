@@ -248,7 +248,10 @@ footer a {
 }
 
 footer a:hover {
-    color: #4ed157;
+    color: #138b1b;
+    cursor: pointer;
+    text-shadow: 0 0 10px#138b1b ;
+    transition: 0.5s;
 }
 
 /* Hamburguer */
