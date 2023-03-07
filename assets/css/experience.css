@@ -118,4 +118,11 @@
         font-size: 18px;
     }
 
+    .xp-tittles h1{
+        margin-top: 10px;
+        font-weight: bolder;
+        color: #138b1b;
+        font-size: 30px;
+    }
+
 }

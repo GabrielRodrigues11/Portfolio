@@ -235,7 +235,7 @@ footer {
 
 footer h2 {
     color: #d3d3d3;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -244,7 +244,7 @@ footer h2 {
 footer a {
     color: #138b1b;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 footer a:hover {
@@ -339,25 +339,3 @@ footer a:hover {
     }
 }
 
-/* Smartphone */
-
-@media screen and (max-width: 767px) {
-
-    
-
-    .projetos h1 {
-        font-size: 35px;
-    }
-
-    .projects h2 {
-        font-size: 30px;
-    }
-
-    .projects p {
-        font-size: 20px;
-    }
-
-    .projects a {
-        font-size: 20px;
-    }
-}
