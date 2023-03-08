@@ -108,7 +108,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .cabecalho img {
-    width: 120px;
+    width: 100px;
     animation: pisca 2.0s both infinite;
 }
 
@@ -149,78 +149,6 @@ main {
     justify-content: space-around;
 
 }
-
-/*APRESENTAÇÃO*/
-
-.container {
-    display: flex;
-    height: 600px;
-}
-
-.imagem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.imagem img {
-    width: 40rem;
-}
-
-.text-apresentacao {
-    color: #e2e2e2;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    width: 70%;
-}
-
-.text-apresentacao p {
-    font-size: 40px;
-}
-
-.text-apresentacao span {
-    font-size: 50px;
-    color: #138b1b;
-}
-
-.text-apresentacao span:after {
-    content: '|';
-    margin-left: 5px;
-    opacity: 1;
-    animation: pisca .7s infinite;
-}
-
-@keyframes pisca {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-}
-
-
-.text-apresentacao button {
-    width: 250px;
-    padding: 10px;
-    margin-top: 30px;
-    border-radius: 10px;
-    background-color: #138b1b;
-    border: none;
-    color: #d3d3d3;
-    transition: 0.7s;
-    text-align: center;
-}
-
-.text-apresentacao button:hover {
-    width: 280px;
-    color: #ffffff;
-    box-shadow: 0 0 15px #138b1b;
-}
-
 
 /*FOOTER*/
 
@@ -314,51 +242,13 @@ footer a:hover {
 
 }
 
-@media screen and (max-width: 1000px) {
-
-
-    .container {
-        justify-content: space-around;
-        align-items: start;
-        padding-top: 50px;
-        width: 100%;
-        height: 450px;
-    }
-
-    .text-apresentacao {
-        width: 100%;
-        margin-top: 0px;
-    }
-
-    .text-apresentacao a {
-        margin-top: 50px;
-    }
-
-    .imagem img {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 767px) {
 
-    .text-apresentacao p {
-        font-size: 35px;
-    }
-
-    .text-apresentacao span {
-        font-size: 35px;
-        color: #138b1b;
-    }
-
-    .text-apresentacao button {
-        width: 250px;
-
-    }
-
-    .text-apresentacao button:hover {
-        width: 280px;
-
+    .cabecalho {
+        height: 60px;
+    }   
+    .cabecalho img {
+        width: 60px;
     }
 
 }
-
